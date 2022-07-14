@@ -10,23 +10,7 @@ export class AppService {
     }
 
     async getNavPageConfig(): Promise<NavPageConfig[]> {
-        const pages: NavPageConfig[] = [
-            {
-              key: 'home',
-              name: 'Home',
-              path: '/',
-            },
-            {
-              key: 'resume',
-              name: 'Resume',
-              path: '/resume',
-            },
-            {
-              key: 'project',
-              name: 'Projects',
-              path: '/project',
-            },
-          ];
+        const pages: NavPageConfig[] = [];
         return pages;
     }
 }
