@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   sonarqube:
-    image: docker.royfuwei.com/tools/ts-react-resume
-    container_name: ts-resume-frontend
+    image: harbor.royfuwei.com/tools/ts-react-arch
+    container_name: ts-react-arch
     restart: always
     networks:
       - devops
